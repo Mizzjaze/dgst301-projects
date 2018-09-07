@@ -1,0 +1,16 @@
+#DGST 301 Bot Project
+#Our project guidelines included creating a twitter bot that was capable of 100,000 iterations. My bot tweets notable figures
+#and designates them as a "boss", "hero" or "icon", with a random personal declaration at the end.
+Here is my code:
+{
+	"origin": ["#boss# is a Boss.\n  #hero# is my hero.\n  #icon# is an icon.\n  #completely different#... I believe in #random# cuz I can.\n"],
+	"boss" : ["Indira Ghandi", "Thomas Edison", "Rosa Parks", "Aung San Suu Kyi", "Lyndon Johnson", "Marie Curie", "Ludwig Beethoven", "Sappho", "Oprah Winfrey", "Indira Gandhi", "Eva Peron", "Benazir Bhutto", "George Orwell", "Desmond Tutu", "Dalai Lama", "Neil Armstrong", "Malcolm X", "J.K. Rowling", "Richard Branson", "Pele", "Angelina Jolie", "Jesse Owens", "Ernest Hemingway", "John Lennon", "Henry Ford", "Haile Selassie", "Michael Jordan", "Louis Pasteur", "Ingrid Bergman"], 
+
+	"hero" : ["Billie Jean King", "Catherine the Great", "Cleopatra", "Emily Dickinson", "Eva Peron", "Georgia O’Keefe", "Jackie Joyner-Kersee", "Jane Austen", "Laura Ingalls Wilder", "Louisa May Alcott", "Mahalia Jackson", "Marie Antionette", "Maya Angelou", "Mother Theresa", "Queen Ann", "Queen Elizabeth I", "Queen  Victoria", "Leo Tolstoy", "Pablo Picasso", "Frida Kahlo", "Oscar Wilde", "Coco Chanel", "Charles de Gaulle", "Amelia Earhart", "Virginia Woolf", "Susan B.   Anthony"],
+	"icon" : ["Marilyn Monroe", "Abraham Lincoln", "Mother Teresa", "John F. Kennedy", "Martin Luther King", "Nelson Mandela", "Queen Elizabeth II", "Winston  Churchill", "Muhammad Ali", "Mahatma Gandhi", "Margaret Thatcher", "Charles Darwin", "Elvis Presley", "Albert Einstein", "Paul McCartney", "Queen  Victoria", "Pope Francis", "Leonardo da Vinci", "Vincent Van Gogh", "Franklin D. Roosevelt"], 
+	"completely different": ["Furthermore,", "And by the way", "Also", "Besides this business"],
+	"random": ["Christopher Walken", "a committee of 7", "astrology", "extraterrestrials", "elephants that can paint", "ancient astronaut theory"] 
+
+
+
+}
