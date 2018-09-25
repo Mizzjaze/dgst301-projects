@@ -10,11 +10,10 @@ import random
 ##lines[] includes nouns I inputted that are related to eating and/or food
 ##This list includes selected line breaks after certain items
 lines = [
-    "cafe","booth", "restaurant", "bistro", "kitchen", "market","din-din",
-    "suppertime","grub", "counter", "service", "lunch pack", "recipe", "menu",
-    "reservation", "hostess", "monkey suit\n","barkeep", "waitresses", "frycook",
-    "pub\n","table", "diner", "take-out\n", "doggy bag", "leftovers"
-    
+    "cafe\n","booth\n", "restaurant", "bistro\n", "kitchen\n", "market\n","din-din\n",
+    "suppertime\n","counter\n", "service\n", "lunch pack\n", "recipe\n", "menu\n",
+    "hostess\n", "monkey suit","barkeep\n", "waitresses", "frycook",
+    "pub\n","table\n", "diner\n", "take-out\n", "doggy bag\n", "leftovers"
 ]
 ##lines2[] includes food dishes referenced in the album (MM..FOOD)
 ##Includes adjectives/adverbs I inputted for added description
@@ -32,7 +31,10 @@ lines3 = ["Beef Rap\n", "Hoe Cakes\n", "Potholderz","One Beer",
           "Kon Karne", "Guinesses\n", "Kon Queso", "Rapp Snitch Knishes",
           "Vomitspit", "Kookies"
 ]
-
+##lines4[] includes list of verbs
+lines4 = ["eat", "want", "grub", "cop", "butter", "nibble", "pick-up",
+          "order", "cook", "prep"
+]
 
 ##main function
 def main():
@@ -44,7 +46,7 @@ def main():
    #Loops through lines3[], lines[], and lines2[] to output poem lines
    #Prints randomly selected items using random.choice call from random module 
     for l in range(22):
-        print ((random.choice(lines3)),(random.choice(lines)),(random.choice(lines2)))
+        print ((random.choice(lines)),(random.choice(lines4)),(random.choice(lines2)),(random.choice(lines3)))
    #Prints a line break after the poem for spacing
     print("\n")
    #Prints a special thank you indicating the end of the poem
