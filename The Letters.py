@@ -19,7 +19,7 @@ def get_entry():
             scount = pronouncing.syllable_count(plist[0])
             if (scount == 2):
                 ewords.append(entry)
-    return random.choice(ewords)
+    return ewords
         
 ##    entry = random.choice(pycorpora.architecture.passages['passages'])
 ##    plist = pronouncing.phones_for_word(entry)
@@ -38,7 +38,7 @@ def get_object():
 ##    ranobject = random.choice(pycorpora.objects.objects['objects'])
 ##    plist = pronouncing.phones_for_word("tool")
 ##    scount= pronouncing.syllable_count(plist[0])
-    return random.choice(owords)
+    return owords
 
 def rhyme():
     #function gets pair of 1 entry and 1 object that rhyme
@@ -76,4 +76,3 @@ def main():
     print(poem)
 
 main()
-
